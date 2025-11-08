@@ -44,12 +44,15 @@ describe("createShiftPlan", () => {
 
   it("should not assign a shift to an unavailable worker", () => {
     const shiftStart = new Date("2024-01-01T09:00:00");
-    const shiftEnd = new Date(shiftStart.getTime() + 8 * 60 * 60 * 1000);
+    const shiftDuration = 8;
+    const shiftEnd = new Date(
+      shiftStart.getTime() + shiftDuration * 60 * 60 * 1000
+    );
 
     const shifts: Shift[] = [
       {
         start: shiftStart,
-        duration: 8,
+        duration: shiftDuration,
         recoveryTime: 12,
         worker: null,
       },

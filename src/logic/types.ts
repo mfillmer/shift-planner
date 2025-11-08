@@ -4,6 +4,7 @@ export interface Shift {
   recoveryTime: number;
   worker: null | Worker;
 }
+
 export interface Worker {
   name: string;
   hoursPerWeek: number; // Workers have a weekly hour quota.
@@ -11,7 +12,8 @@ export interface Worker {
   unavailable: OffTime[]; // Times when a worker is unavailable.
   requested: OffTime[]; // Workers can request times off
 }
-interface OffTime {
+
+export interface OffTime {
   start: Date;
   end: Date;
 }
