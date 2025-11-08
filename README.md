@@ -1,75 +1,88 @@
-# React + TypeScript + Vite
+# FOSS Shift Planner
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A free and open-source shift planner to manage your team's work schedule.
+It is privacy-focused and runs completely locally in your browser.
 
-Currently, two official plugins are available:
+## Getting Started
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+tbd
 
-## React Compiler
+## Contribute
 
-The React Compiler is enabled on this template. See [this documentation](https://react.dev/learn/react-compiler) for more information.
+tbd
 
-Note: This will impact Vite dev & build performances.
+## Technical Details
 
-## Expanding the ESLint configuration
+The diagram below shows the general logic of the scheduling algorithm.
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+Given a list of following objects:
 
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+```ts
+type Shift {
+  start: Datetime;
+  duration: number;
+  recoveryTime: number;
+  worker: null | Worker
+}
 
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
+type Worker {
+  name: string;
+  hoursPerWeek: number; // Workers have a weekly hour quota.
+  hourBalance: number; // Workers can start a time period with an overtime or negative hour balance.
+  unavailable: OffTime[]; // Times when a worker is unavailable.
+  requested: OffTime[]; // Workers can request times off
+}
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+type OffTime {
+  start: Datetime;
+  end: Datetime;
+}
 ```
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+The algorithm should distribute the available workers to a defined list of shifts while balancing the workload evenly and normalizing the hour balances of all workers.
+To do this, here is a first, greedy approach to the problem:
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+1. Sort the workers by ascending `hourBalance`
+2. Sort the shifts by descending `duration` first, then by `start` time
+3. Loop over the sorted lists of shifts. For every shift, match a worker with the following logic:
+   1. For every `worker` in `workers`:
+   2. if (worker is available respecting offtime requests)
+      - add the worker to the shift
+      - update the workers 'hoursBalance'
+      - continue with the next shift
+   3. if no worker is found for the shift, add the shift to a new list of unmatched shifts
+   4. Sort the worker list again by `hourBalance`
+4. if unmatched shifts remain, repeat step 3 but do not respect the requested offtimes
+5. The algorithm succeeds, if no unmatched shifts remain. The algoritm is performant, when the variance of the `hourBalance` per worker is small.
 
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+```mermaid
+graph TD
+    A[Start] --> B[Sort Workers & Shifts];
+    B --> C{Pass 1: Assign Shifts};
+
+    subgraph Pass 1
+        C -- respecting requests --> D{For each Shift};
+        D --> E{Find available Worker};
+        E -- Found --> F[Assign & Re-sort Workers];
+        F --> D;
+        E -- Not Found --> G[Add to Unmatched];
+        G --> D;
+    end
+
+    D -- All Shifts Processed --> H{Any Unmatched Shifts?};
+    H -- Yes --> I{Pass 2: Assign Unmatched};
+
+    subgraph Pass 2
+        I -- ignoring requests --> J{For each Unmatched Shift};
+        J --> K{Find available Worker};
+        K -- Found --> L[Assign & Re-sort Workers];
+        L --> J;
+        K -- Not Found --> M[Mark as Unmatchable];
+        M --> J;
+    end
+
+    J -- All Unmatched Processed --> N{Any Unmatchable Shifts?};
+    H -- No --> O[Success];
+    N -- No --> O;
+    N -- Yes --> P[Failure];
 ```
