@@ -1,6 +1,6 @@
 import { describe, it, expect } from "vitest";
 import { isWorkerAvailable } from "../../src/logic/isWorkerAvailable";
-import type { Shift, Worker } from "../../src/logic/types";
+import type { Worker } from "../../src/logic/types";
 import { exampleWorkers } from "../data/workers";
 import { exampleShifts } from "../data/shifts";
 
