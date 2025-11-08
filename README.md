@@ -18,14 +18,14 @@ The diagram below shows the general logic of the scheduling algorithm.
 Given a list of following objects:
 
 ```ts
-type Shift {
-  start: Datetime;
+interface Shift {
+  start: Date;
   duration: number;
   recoveryTime: number;
-  worker: null | Worker
+  worker: null | Worker;
 }
 
-type Worker {
+interface Worker {
   name: string;
   hoursPerWeek: number; // Workers have a weekly hour quota.
   hourBalance: number; // Workers can start a time period with an overtime or negative hour balance.
@@ -33,9 +33,9 @@ type Worker {
   requested: OffTime[]; // Workers can request times off
 }
 
-type OffTime {
-  start: Datetime;
-  end: Datetime;
+interface OffTime {
+  start: Date;
+  end: Date;
 }
 ```
 
