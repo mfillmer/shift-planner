@@ -6,16 +6,6 @@ describe("sortShifts", () => {
   it("sorts shifts by duration and by date", () => {
     const sortedShifts = sortShifts(exampleShifts);
 
-    exampleShifts.forEach(({ start, duration }, index) =>
-      console.log({ index, duration, start })
-    );
-
-    console.log("sorted");
-
-    sortedShifts.forEach(({ start, duration }, index) =>
-      console.log({ index, duration, start })
-    );
-
     expect(sortedShifts[0]).toEqual(exampleShifts[0]);
     expect(sortedShifts[1]).toEqual(exampleShifts[3]);
     expect(sortedShifts[2]).toEqual(exampleShifts[5]);
