@@ -15,16 +15,28 @@ export const createShiftPlan = (
 ): ShiftPlan => {
   const workersCopy = JSON.parse(JSON.stringify(workers));
   const sortedShifts = sortShifts(shifts);
-  const updatedShifts = sortedShifts.map((shift) => {
-    for (const worker of sortWorkers(workersCopy)) {
-      if (isWorkerAvailable(shift, worker, true)) {
-        const updatedShift = assignWorkerToShift(shift, worker);
-        return updatedShift;
+  const updatedShifts = sortedShifts
+    .map((shift) => {
+      for (const worker of sortWorkers(workersCopy)) {
+        if (isWorkerAvailable(shift, worker, true)) {
+          const updatedShift = assignWorkerToShift(shift, worker);
+          return updatedShift;
+        }
       }
-    }
-    return shift;
-  });
-
+      return shift;
+    })
+    .map((shift) => {
+      if (shift.worker !== null) {
+        return shift;
+      }
+      for (const worker of sortWorkers(workersCopy)) {
+        if (isWorkerAvailable(shift, worker, false)) {
+          const updatedShift = assignWorkerToShift(shift, worker);
+          return updatedShift;
+        }
+      }
+      return shift;
+    });
   return { shifts: updatedShifts, workers: workersCopy };
 };
 

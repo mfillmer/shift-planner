@@ -1,5 +1,5 @@
 import { describe, it, expect } from "vitest";
-import { createShiftPlan, ShiftPlan } from "../../src/logic/createShiftPlan";
+import { createShiftPlan } from "../../src/logic/createShiftPlan";
 import type { Shift, Worker } from "../../src/logic/types";
 import { exampleShifts } from "../data/shifts";
 import { exampleWorkers } from "../data/workers";
@@ -71,5 +71,24 @@ describe("createShiftPlan", () => {
       const originalWorker = exampleWorkers.find((w) => w.name === worker.name);
       expect(worker.hourBalance).not.equal(originalWorker?.hourBalance);
     }
+  });
+
+  it("should assign all shifts ignoring requested off times if necessary", () => {
+    const lazyWorkers = exampleWorkers.map((worker) => ({
+      ...worker,
+      requested: [
+        {
+          from: new Date("2024-01-01T00:00:00"),
+          to: new Date("2024-01-08T23:00:00"),
+        },
+      ],
+    }));
+    const shiftPlan = createShiftPlan(exampleShifts, lazyWorkers);
+
+    const unassignedShifts = shiftPlan.shifts.filter(
+      (shift) => shift.worker === null
+    );
+
+    expect(unassignedShifts).toHaveLength(0);
   });
 });
