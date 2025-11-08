@@ -1,4 +1,6 @@
-import { Shift } from "../../src/logic/types";
+import { Shift, Worker } from "../../src/logic/types";
+
+export const workers: Worker[] = [];
 
 /**
  * A list of example shifts for one week. Shifts can overlap and there are 24 hour shifts, 8 hour shifts and 2 hour shifts (appointments)

@@ -1,53 +1,42 @@
+import { getShiftEnd } from "./getShiftEnd";
+import { isWorkerAvailable } from "./isWorkerAvailable";
+import { sortShifts } from "./sortShifts";
+import { sortWorkers } from "./sortWorkers";
 import type { OffTime, Shift, Worker } from "./types";
+
+export interface ShiftPlan {
+  shifts: Shift[];
+  workers: Worker[];
+}
 
 export const createShiftPlan = (
   shifts: Shift[] = [],
   workers: Worker[] = []
-): Shift[] => {
-  const updatedShifts = shifts.map((shift) => {
-    for (const worker of workers) {
+): ShiftPlan => {
+  const workersCopy = JSON.parse(JSON.stringify(workers));
+  const sortedShifts = sortShifts(shifts);
+  const updatedShifts = sortedShifts.map((shift) => {
+    for (const worker of sortWorkers(workersCopy)) {
       if (isWorkerAvailable(shift, worker, true)) {
-        return { ...shift, worker };
+        const updatedShift = assignWorkerToShift(shift, worker);
+        return updatedShift;
       }
     }
     return shift;
   });
 
-  return updatedShifts;
+  return { shifts: updatedShifts, workers: workersCopy };
 };
 
-const isWorkerAvailable = (
-  shift: Shift,
-  worker: Worker,
-  respectRequestedOffTime = true
-) => {
-  const offTimes = respectRequestedOffTime
-    ? [...worker.unavailable, ...worker.requested]
-    : worker.unavailable;
+const assignWorkerToShift = (shift: Shift, worker: Worker) => {
+  const recoveryOffTime: OffTime = {
+    from: shift.start,
+    to: getShiftEnd(shift),
+  };
+  const updatedShift = { ...shift, worker };
 
-  const hasNoOverlapWithShift = (offTime: OffTime) =>
-    checkIfTimerangesAreDisjointed(
-      shift.start,
-      getShiftEnd(shift),
-      offTime.from,
-      offTime.to
-    );
+  worker.hourBalance += shift.duration;
+  worker.unavailable.push(recoveryOffTime);
 
-  if (offTimes.length > 0) {
-    return offTimes.every((offTime) => hasNoOverlapWithShift(offTime));
-  } else {
-    return true;
-  }
+  return updatedShift;
 };
-
-const checkIfTimerangesAreDisjointed = (
-  start1: Date,
-  end1: Date,
-  start2: Date,
-  end2: Date
-): boolean => {
-  return start1 >= end2 || start2 >= end1;
-};
-
-const getShiftEnd = (shift: Shift): Date =>
-  new Date(shift.start.getTime() + shift.duration * 60 * 60 * 1000);
