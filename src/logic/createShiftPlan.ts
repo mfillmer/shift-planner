@@ -29,8 +29,8 @@ const isWorkerAvailable = (
     checkIfTimerangesAreDisjointed(
       shift.start,
       getShiftEnd(shift),
-      offTime.start,
-      offTime.end
+      offTime.from,
+      offTime.to
     );
 
   if (offTimes.length > 0) {

@@ -14,6 +14,6 @@ export interface Worker {
 }
 
 export interface OffTime {
-  start: Date;
-  end: Date;
+  from: Date;
+  to: Date;
 }
