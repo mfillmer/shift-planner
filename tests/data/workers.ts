@@ -2,6 +2,8 @@ import { Worker } from "../../src/logic/types";
 
 /**
  * A list of example workers resembling a team of five people. Three fulltime and two part time workers with 20 and eight hours a week. A few offtimes are saved for the time of one week. Some workers have non zero hourBalances.
+ *
+ * This dataset is feasable with the dataset in ./shifts.ts
  */
 export const exampleWorkers: Worker[] = [
   {

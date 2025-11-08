@@ -58,17 +58,16 @@ describe("createShiftPlan", () => {
     expect(shifts).toEqual([]);
   });
 
-  it("should update the workers hoursBalance", () => {
+  it("should assign all shifts and update assigned workers hoursBalance", () => {
     const shiftPlan = createShiftPlan(exampleShifts, exampleWorkers);
 
     const unassignedShifts = shiftPlan.shifts.filter(
       (shift) => shift.worker === null
     );
-    console.log({ unassignedShifts });
 
     expect(unassignedShifts).toHaveLength(0);
 
-    for (const worker of shiftPlan.workers) {
+    for (const worker of shiftPlan.shifts.map((s) => s.worker!)) {
       const originalWorker = exampleWorkers.find((w) => w.name === worker.name);
       expect(worker.hourBalance).not.equal(originalWorker?.hourBalance);
     }
