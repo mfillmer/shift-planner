@@ -13,7 +13,15 @@ If the app finds any data in the local storage, the screen will not be displayed
 
 If the user clicks on the bottom right plus button, a modal will open explaining the general steps.
 
-![Welcome Page after Create was clicked Desktop](mockups/welcome-create-clicked-desktop.svg)
+![Welcome Page after Create was clicked Desktop](mockups/welcome-on-create-clicked-desktop.svg)
+
+Upon clicking the action button, a first plan will be created. The user then needs to define the timerange of the shift plan.
+
+![First Plan](./mockups/first-plan.svg)
+
+After defining the timerange, a calendar view will be created and presented to the user.
+
+![First Plan after Date save](./mockups/first-plan-on-save-date-clicked.svg)
 
 ### Mobile
 

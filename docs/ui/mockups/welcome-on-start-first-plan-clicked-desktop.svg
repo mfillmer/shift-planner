@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg style="width: 100%; height: 500px" viewBox="0 0 400 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="400px" height="300px" rx="4px" fill="#e1e1e1ff" y="0px" x="0px"/>
+  <rect x="0" y="0" width="100" height="300" rx="4" fill="#c4c4c4ff"/>
+  <rect x="6.438" y="30.946" width="87.255" height="12.622" style="fill: rgb(216, 216, 216); stroke-linecap: round;" rx="4" ry="4"/>
+  <text x="50" y="15" fill="#676767ff" font-family="system-ui, sans-serif" font-size="12" text-anchor="middle" dominant-baseline="central" style="white-space: pre;">Your Plans +</text>
+  <text x="50" y="150" fill="#676767ff" font-family="system-ui, sans-serif" font-size="12" text-anchor="middle" dominant-baseline="central" style="white-space: pre;">Your Teams +</text>
+  <text x="50" y="170" fill="#676767ff" font-family="system-ui, sans-serif" font-size="8" text-anchor="middle" dominant-baseline="central" style="white-space: pre;">you have no teams yet.</text>
+  <text style="fill: rgb(103, 103, 103); font-family: Arial, sans-serif; font-size: 6px; white-space: pre;" x="14.076" y="39.754">- First Plan</text>
+  <text style="white-space: pre; fill: rgb(51, 51, 51); font-family: Arial, sans-serif; font-size: 28px;" x="113.536" y="32.402">First Plan</text>
+  <rect x="113.536" y="60.271" width="87.255" height="12.622" style="fill: rgb(216, 216, 216); stroke-linecap: round;" rx="4" ry="4"/>
+  <rect x="231.77" y="60.271" width="87.255" height="12.622" style="fill: rgb(216, 216, 216); stroke-linecap: round;" rx="4" ry="4"/>
+  <text style="white-space: pre; fill: rgb(51, 51, 51); font-family: Arial, sans-serif; font-size: 28px;" x="212.114" y="74.968">-</text>
+  <text style="fill: rgb(51, 51, 51); font-family: Arial, sans-serif; font-size: 10px; white-space: pre;" x="113.536" y="55.092">Start Date</text>
+  <text style="fill: rgb(51, 51, 51); font-family: Arial, sans-serif; font-size: 10px; white-space: pre;" x="231.77" y="55.092">End Date</text>
+  <text style="fill: rgb(51, 51, 51); font-family: Arial, sans-serif; font-size: 8px; white-space: pre;" x="118.515" y="69.449">01.01.2024</text>
+  <text style="fill: rgb(51, 51, 51); font-family: Arial, sans-serif; font-size: 8px; white-space: pre;" x="233.425" y="69.449">31.01.2024</text>
+  <rect x="329.847" y="60.271" width="41.679" height="12.622" style="stroke-linecap: round; fill: rgb(122, 122, 122);" rx="4" ry="4"/>
+  <text style="fill: rgb(255, 255, 255); font-family: Arial, sans-serif; font-size: 8px; white-space: pre;" x="342.128" y="69.449">Save</text>
+</svg>
