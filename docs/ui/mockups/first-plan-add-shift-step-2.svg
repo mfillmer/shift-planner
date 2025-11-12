@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
-<svg style="width: 100%; height: 500px" viewBox="0 0 400 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+<svg style="width: 100%; height: 500px" viewBox="0 0 400 300" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:bx="https://boxy-svg.com">
+  <defs>
+    <bx:grid x="-0.146" y="0.139" width="24.829" height="24.829"/>
+  </defs>
   <rect width="400px" height="300px" rx="4px" fill="#e1e1e1ff" y="0px" x="0px"/>
   <rect x="0" y="0" width="100" height="300" rx="4" fill="#c4c4c4ff"/>
   <rect x="6.438" y="30.946" width="87.255" height="12.622" style="fill: rgb(216, 216, 216); stroke-linecap: round;" rx="4" ry="4"/>
@@ -47,6 +50,44 @@
     <path d="M13.9093 12.3603L17.0007 20.8537L14.1816 21.8798L11.0902 13.3864L6.91797 16.5422L8.4087 1.63318L19.134 12.0959L13.9093 12.3603Z" style="fill: rgb(0, 0, 0);"/>
   </g>
   <rect width="400" height="300" rx="4" style="stroke-width: 1; fill: rgb(255, 255, 255); fill-opacity: 0.92;"/>
-  <rect width="300" height="200" y="50" x="50" fill="#c3c3c4ff" rx="12" stroke="darkgray" style="stroke-width: 1;"/>
+  <rect width="300" height="223.258" y="50" x="50" fill="#c3c3c4ff" rx="12" stroke="darkgray" style="stroke-width: 1;"/>
   <text style="white-space: pre; fill: rgb(51, 51, 51); font-family: Arial, sans-serif; font-size: 28px;" x="115.819" y="85.906" transform="matrix(1, 0, 0, 1, 24.985825, 7.384986)">New Shift </text>
+  <rect x="100" y="112.876" width="81.357" height="10.71" style="fill: rgb(216, 216, 216); stroke: rgb(0, 0, 0);" rx="5.114" ry="5.114"/>
+  <text style="fill: rgb(51, 51, 51); font-family: Arial, sans-serif; font-size: 8px; white-space: pre;" x="115.016" y="111.759" transform="matrix(1, 0, 0, 1, -15.015997, -4.477598)">Start:<tspan x="115.01599884033203" dy="1em">​</tspan></text>
+  <text style="fill: rgb(51, 51, 51); font-family: Arial, sans-serif; font-size: 8px; white-space: pre;" x="115.016" y="111.759" transform="matrix(1, 0, 0, 1, 84.492051, -4.448858)">Duration<tspan x="115.01599884033203" dy="1em">​</tspan></text>
+  <text style="fill: rgb(51, 51, 51); font-family: Arial, sans-serif; font-size: 8px; white-space: pre;" x="115.016" y="111.759" transform="matrix(1, 0, 0, 1, -7.126899, 8.295593)">01.01.2024 13:00<tspan x="115.01599884033203" dy="1em">​</tspan></text>
+  <rect x="199.508" y="113.574" width="44.481" height="10.71" style="fill: rgb(216, 216, 216); stroke: rgb(0, 0, 0);" rx="5.114" ry="5.114"/>
+  <text style="fill: rgb(51, 51, 51); font-family: Arial, sans-serif; font-size: 8px; white-space: pre;" x="115.016" y="111.759" transform="matrix(1, 0, 0, 1, 99.157693, 10.730348)">24 h<tspan x="115.01599884033203" dy="1em">​</tspan></text>
+  <text style="fill: rgb(51, 51, 51); font-family: Arial, sans-serif; font-size: 8px; white-space: pre;" x="115.016" y="111.759" transform="matrix(1, 0, 0, 1, -15.845999, 23.095597)">End:</text>
+  <rect x="99.17" y="138.706" width="81.357" height="10.71" style="fill: rgb(216, 216, 216); stroke: rgb(0, 0, 0);" rx="5.114" ry="5.114"/>
+  <text style="fill: rgb(51, 51, 51); font-family: Arial, sans-serif; font-size: 8px; white-space: pre;" x="115.016" y="111.759" transform="matrix(1, 0, 0, 1, -7.126899, 34.257123)">02.01.2024 13:00<tspan x="115.01599884033203" dy="1em">​</tspan></text>
+  <text style="fill: rgb(51, 51, 51); font-family: Arial, sans-serif; font-size: 8px; white-space: pre;" x="115.016" y="111.759" transform="matrix(1, 0, 0, 1, 83.469995, 23.095597)">Recovery<tspan x="115.01599884033203" dy="1em">​</tspan></text>
+  <rect x="198.486" y="138.793" width="44.481" height="10.71" style="fill: rgb(216, 216, 216); stroke: rgb(0, 0, 0); stroke-width: 1;" rx="5.114" ry="5.114"/>
+  <text style="fill: rgb(51, 51, 51); font-family: Arial, sans-serif; font-size: 8px; white-space: pre;" x="115.016" y="111.759" transform="matrix(1, 0, 0, 1, 98.135797, 35.949051)">11 h<tspan x="115.01599884033203" dy="1em">​</tspan></text>
+  <text style="fill: rgb(51, 51, 51); font-family: Arial, sans-serif; font-size: 8px; white-space: pre; stroke-width: 1;" x="100" y="181.181">Tags</text>
+  <rect x="100" y="185.033" width="81.357" height="10.71" style="fill: rgb(216, 216, 216); stroke: rgb(0, 0, 0); stroke-width: 1;" rx="5.114" ry="5.114"/>
+  <text style="fill: rgb(51, 51, 51); font-family: Arial, sans-serif; font-size: 8px; white-space: pre;" x="115.016" y="111.759" transform="matrix(1, 0, 0, 1, -6.297144, 80.583696)">Night, Birthday</text>
+  <text style="fill: rgb(51, 51, 51); font-family: Arial, sans-serif; font-size: 8px; white-space: pre; stroke-width: 1;" x="100" y="209.038">Repeat every</text>
+  <rect x="151.536" y="201.799" width="47.563" height="10.71" style="fill: rgb(216, 216, 216); stroke: rgb(0, 0, 0); stroke-width: 1;" rx="5.114" ry="5.114"/>
+  <text style="fill: rgb(51, 51, 51); font-family: Arial, sans-serif; font-size: 8px; white-space: pre;" x="115.016" y="111.759" transform="matrix(1, 0, 0, 1, 45.238671, 97.35)">second<tspan x="115.01599884033203" dy="1em">​</tspan></text>
+  <rect x="100" y="218.017" width="11.416" height="11.416" style="fill: rgb(216, 216, 216); stroke: rgb(0, 0, 0);"/>
+  <text style="fill: rgb(51, 51, 51); font-family: Arial, sans-serif; font-size: 8px; white-space: pre;" x="113.536" y="225.159">Mo</text>
+  <rect x="131.536" y="218.216" width="11.416" height="11.416" style="fill: rgb(216, 216, 216); stroke: rgb(0, 0, 0); stroke-width: 1;"/>
+  <text style="fill: rgb(51, 51, 51); font-family: Arial, sans-serif; font-size: 8px; white-space: pre; stroke-width: 1;" x="145.072" y="225.358">Di</text>
+  <rect x="164.887" y="218.415" width="11.416" height="11.416" style="fill: rgb(216, 216, 216); stroke: rgb(0, 0, 0); stroke-width: 1;"/>
+  <text style="fill: rgb(51, 51, 51); font-family: Arial, sans-serif; font-size: 8px; white-space: pre; stroke-width: 1;" x="178.423" y="225.557">Mi</text>
+  <rect x="197.002" y="218.415" width="11.416" height="11.416" style="fill: rgb(216, 216, 216); stroke: rgb(0, 0, 0); stroke-width: 1;"/>
+  <text style="fill: rgb(51, 51, 51); font-family: Arial, sans-serif; font-size: 8px; white-space: pre; stroke-width: 1;" x="210.538" y="225.557">Do</text>
+  <rect x="228.127" y="218.017" width="11.416" height="11.416" style="fill: rgb(216, 216, 216); stroke: rgb(0, 0, 0); stroke-width: 1;"/>
+  <text style="fill: rgb(51, 51, 51); font-family: Arial, sans-serif; font-size: 8px; white-space: pre; stroke-width: 1;" x="241.663" y="225.159">Fr</text>
+  <rect x="259.542" y="218.017" width="11.416" height="11.416" style="fill: rgb(216, 216, 216); stroke: rgb(0, 0, 0); stroke-width: 1;"/>
+  <text style="fill: rgb(51, 51, 51); font-family: Arial, sans-serif; font-size: 8px; white-space: pre; stroke-width: 1;" x="273.078" y="225.159">Sa</text>
+  <rect x="290.104" y="218.017" width="11.416" height="11.416" style="fill: rgb(216, 216, 216); stroke: rgb(0, 0, 0); stroke-width: 1;"/>
+  <text style="fill: rgb(51, 51, 51); font-family: Arial, sans-serif; font-size: 8px; white-space: pre; stroke-width: 1;" x="303.64" y="225.159">So</text>
+  <path style="stroke: rgb(0, 0, 0); fill: rgb(0, 0, 0);" d="M 191.506 205.999 L 193.161 208.58 L 194.883 206.02 L 191.506 205.999 Z"/>
+  <text style="fill: rgb(51, 51, 51); font-family: Arial, sans-serif; font-size: 13px; white-space: pre;" x="133.078" y="228.47">X</text>
+  <rect x="173.657" y="248.429" width="74.487" height="17.868" style="fill: rgb(216, 216, 216);" rx="8.934" ry="8.934"/>
+  <text style="fill: rgb(51, 51, 51); font-family: Arial, sans-serif; font-size: 8px; white-space: pre; stroke-width: 1; text-anchor: middle;" x="210.865" y="259.991">Cancel</text>
+  <rect x="253.79" y="248.429" width="74.487" height="17.868" style="fill: rgb(115, 115, 116);" rx="8.934" ry="8.934"/>
+  <text style="fill: rgb(255, 255, 255); font-family: Arial, sans-serif; font-size: 8px; text-anchor: middle; white-space: pre;" x="290.998" y="259.991">Submit</text>
 </svg>
