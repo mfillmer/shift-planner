@@ -52,7 +52,7 @@ First, click on on the +-Button next to 'Your Team'. A new modal will open, were
 - Schichten manuell bestimmten Mitgliedern zuweisen
 - Stundenkonte beim Team eintragen können
 - Farben selbst wählen
--
+- hoursPerWeek in logik übernehmen
 
 ### Mobile
 
