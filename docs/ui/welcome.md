@@ -31,6 +31,10 @@ A modal will be displayed to add a shift entry. Some editing features like repet
 
 ![First Plan add Shift Step 2](./mockups/first-plan-add-shift-step-2.svg)
 
+Shifts will be displayed as calender entries in the overview. The next entry can be added just like the first.
+
+![First Plan add Shift Step 3](./mockups/first-plan-add-shift-step-3.svg)
+
 ### Mobile
 
 Mobile Views will not be displayed to save space. Not all pages will have a mobile
