@@ -23,6 +23,10 @@ After defining the timerange, a calendar view will be created and presented to t
 
 ![First Plan after Date save](./mockups/first-plan-on-save-date-clicked.svg)
 
+The user can then hover over (or on mobile tap on) any day (represented as rectangles) and add a shift.
+
+![](./mockups/first-plan-add-shift-step-1.svg)
+
 ### Mobile
 
 Mobile Views will not be displayed to save space. Not all pages will have a mobile
