@@ -41,7 +41,7 @@ A fully planned Calender could then look like this image below. Multiple shifts 
 
 Now it's time to build your team. To do this, have a look at the bottom half of the sidebar on the left. There is a section for your teams. You can define multiple teams and select one of them for your shift plan.
 
-First, click on on the +-Button next to 'Your Teams'
+First, click on on the +-Button next to 'Your Teams'. A new modal will open, were team members can be added quickly. Random colors will be selected for each team member. You can also click on the colors to generate a new color.
 
 ### Mobile
 
