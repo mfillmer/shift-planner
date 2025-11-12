@@ -25,7 +25,9 @@ After defining the timerange, a calendar view will be created and presented to t
 
 The user can then hover over (or on mobile tap on) any day (represented as rectangles) and add a shift.
 
-![](./mockups/first-plan-add-shift-step-1.svg)
+![First Plan add Shift Step 1](./mockups/first-plan-add-shift-step-1.svg)
+
+![First Plan add Shift Step 2](./mockups/first-plan-add-shift-step-2.svg)
 
 ### Mobile
 
