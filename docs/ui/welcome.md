@@ -27,6 +27,8 @@ The user can then hover over (or on mobile tap on) any day (represented as recta
 
 ![First Plan add Shift Step 1](./mockups/first-plan-add-shift-step-1.svg)
 
+A modal will be displayed to add a shift entry. Some editing features like repetition are added for convinience.
+
 ![First Plan add Shift Step 2](./mockups/first-plan-add-shift-step-2.svg)
 
 ### Mobile
