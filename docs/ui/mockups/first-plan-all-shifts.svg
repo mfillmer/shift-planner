@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg style="width: 100%; height: 500px" viewBox="0 0 400 300" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:bx="https://boxy-svg.com">
+  <rect width="400px" height="300px" rx="4px" fill="#e1e1e1ff" y="0px" x="0px"/>
+  <rect x="0" y="0" width="100" height="300" rx="4" fill="#c4c4c4ff"/>
+  <rect x="6.438" y="30.946" width="87.255" height="12.622" style="fill: rgb(216, 216, 216); stroke-linecap: round;" rx="4" ry="4"/>
+  <text x="50" y="15" fill="#676767ff" font-family="system-ui, sans-serif" font-size="12" text-anchor="middle" dominant-baseline="central" style="white-space: pre;">Your Plans +</text>
+  <text x="50" y="150" fill="#676767ff" font-family="system-ui, sans-serif" font-size="12" text-anchor="middle" dominant-baseline="central" style="white-space: pre;">Your Teams +</text>
+  <text x="50" y="170" fill="#676767ff" font-family="system-ui, sans-serif" font-size="8" text-anchor="middle" dominant-baseline="central" style="white-space: pre;">you have no teams yet.</text>
+  <text style="fill: rgb(103, 103, 103); font-family: Arial, sans-serif; font-size: 6px; white-space: pre;" x="14.076" y="39.754">- First Plan</text>
+  <text style="white-space: pre; fill: rgb(51, 51, 51); font-family: Arial, sans-serif; font-size: 28px;" x="113.536" y="32.402">First Plan</text>
+  <text style="white-space: pre; fill: rgb(51, 51, 51); font-family: Arial, sans-serif; font-size: 28px;" x="291.409" y="28.673" transform="matrix(0.761812, 0, 0, 0.321326, 86.845262, 19.600575)">-</text>
+  <text style="fill: rgb(51, 51, 51); font-family: Arial, sans-serif; font-size: 8px; white-space: pre;" x="264.002" y="29.058">01.01.2024</text>
+  <text style="fill: rgb(51, 51, 51); font-family: Arial, sans-serif; font-size: 8px; white-space: pre;" x="320.339" y="29.058">31.01.2024</text>
+  <rect x="367.472" y="20.81" width="16.279" height="9.964" style="stroke-linecap: round; fill: rgb(216, 216, 216);" rx="4" ry="4"/>
+  <text style="fill: rgb(107, 107, 107); font-family: Arial, sans-serif; font-size: 6.3px; white-space: pre;" x="370.206" y="27.644">Edit</text>
+  <rect x="113.536" y="54.044" width="38" height="73.632" style="fill: rgb(216, 216, 216); stroke: rgb(156, 156, 156);"/>
+  <rect x="151.536" y="54.044" width="38" height="73.632" style="fill: rgb(216, 216, 216); stroke: rgb(156, 156, 156);"/>
+  <rect x="189.536" y="54.044" width="38" height="73.632" style="fill: rgb(216, 216, 216); stroke: rgb(156, 156, 156);"/>
+  <rect x="227.536" y="54.044" width="38" height="73.632" style="fill: rgb(216, 216, 216); stroke: rgb(156, 156, 156);"/>
+  <rect x="265.536" y="54.044" width="38" height="73.632" style="fill: rgb(216, 216, 216); stroke: rgb(156, 156, 156);"/>
+  <rect x="303.536" y="54.044" width="38" height="73.632" style="fill: rgb(216, 216, 216); stroke: rgb(156, 156, 156);"/>
+  <rect x="341.536" y="54.044" width="38" height="73.632" style="fill: rgb(216, 216, 216); stroke: rgb(156, 156, 156);"/>
+  <text style="fill: rgb(51, 51, 51); font-family: Arial, sans-serif; font-size: 6px; white-space: pre;" x="113.536" y="48.831">KW 01</text>
+  <rect x="113.536" y="153.283" width="38" height="73.632" style="fill: rgb(216, 216, 216); stroke: rgb(156, 156, 156);"/>
+  <rect x="151.536" y="153.283" width="38" height="73.632" style="fill: rgb(216, 216, 216); stroke: rgb(156, 156, 156);"/>
+  <rect x="189.536" y="153.283" width="38" height="73.632" style="fill: rgb(216, 216, 216); stroke: rgb(156, 156, 156);"/>
+  <rect x="227.536" y="153.283" width="38" height="73.632" style="fill: rgb(216, 216, 216); stroke: rgb(156, 156, 156);"/>
+  <rect x="265.536" y="153.283" width="38" height="73.632" style="fill: rgb(216, 216, 216); stroke: rgb(156, 156, 156);"/>
+  <rect x="303.536" y="153.283" width="38" height="73.632" style="fill: rgb(216, 216, 216); stroke: rgb(156, 156, 156);"/>
+  <rect x="341.536" y="153.283" width="38" height="73.632" style="fill: rgb(216, 216, 216); stroke: rgb(156, 156, 156);"/>
+  <text style="fill: rgb(51, 51, 51); font-family: Arial, sans-serif; font-size: 6px; white-space: pre;" x="113.536" y="148.07">KW 02</text>
+  <rect x="113.536" y="250.98" width="38" height="73.632" style="fill: rgb(216, 216, 216); stroke: rgb(156, 156, 156);"/>
+  <rect x="151.536" y="250.98" width="38" height="73.632" style="fill: rgb(216, 216, 216); stroke: rgb(156, 156, 156);"/>
+  <rect x="189.536" y="250.98" width="38" height="73.632" style="fill: rgb(216, 216, 216); stroke: rgb(156, 156, 156);"/>
+  <rect x="227.536" y="250.98" width="38" height="73.632" style="fill: rgb(216, 216, 216); stroke: rgb(156, 156, 156);"/>
+  <rect x="265.536" y="250.98" width="38" height="73.632" style="fill: rgb(216, 216, 216); stroke: rgb(156, 156, 156);"/>
+  <rect x="303.536" y="250.98" width="38" height="73.632" style="fill: rgb(216, 216, 216); stroke: rgb(156, 156, 156);"/>
+  <rect x="341.536" y="250.98" width="38" height="73.632" style="fill: rgb(216, 216, 216); stroke: rgb(156, 156, 156);"/>
+  <text style="fill: rgb(51, 51, 51); font-family: Arial, sans-serif; font-size: 6px; white-space: pre;" x="113.536" y="245.767">KW 03</text>
+  <rect x="383.751" y="50.237" width="6.663" height="243.917" style="fill: rgb(196, 196, 196); stroke-linecap: round;" rx="3" ry="3"/>
+  <rect x="385.104" y="52.254" width="4.057" height="90" style="stroke-linecap: round; fill: rgb(216, 216, 216);" rx="2" ry="2"/>
+  <defs>
+    <bx:grid x="113.378" y="54.24" width="4.842" height="15.817"/>
+  </defs>
+  <rect x="113.378" y="90.97" width="33.894" height="36.73" style="stroke: rgb(78, 78, 78); fill: rgb(67, 60, 60);"/>
+  <rect x="151.863" y="54.24" width="9.935" height="29.384" style="stroke: rgb(78, 78, 78); stroke-width: 1; fill: rgb(67, 60, 60);"/>
+  <rect x="151.863" y="54.24" width="14.777" height="29.384" style="stroke: rgb(78, 78, 78); stroke-width: 1; fill: rgb(67, 60, 60);"/>
+  <rect x="171.482" y="61.586" width="14.526" height="55.922" style="stroke: rgb(78, 78, 78); stroke-width: 1; fill: rgb(67, 60, 60);"/>
+  <rect x="152.365" y="90.97" width="14.275" height="36.73" style="stroke: rgb(78, 78, 78); fill: rgb(67, 60, 60); stroke-width: 1;"/>
+  <rect x="189.536" y="54.044" width="14.777" height="29.384" style="stroke: rgb(78, 78, 78); stroke-width: 1; fill: rgb(67, 60, 60);"/>
+  <rect x="210.218" y="61.586" width="14.526" height="55.922" style="stroke: rgb(78, 78, 78); stroke-width: 1; fill: rgb(67, 60, 60);"/>
+  <rect x="191.101" y="90.97" width="14.275" height="36.73" style="stroke: rgb(78, 78, 78); fill: rgb(67, 60, 60); stroke-width: 1;"/>
+  <rect x="230.655" y="54.216" width="8.615" height="29.384" style="stroke: rgb(78, 78, 78); stroke-width: 1; fill: rgb(67, 60, 60);"/>
+  <rect x="244.112" y="61.562" width="9.684" height="55.922" style="stroke: rgb(78, 78, 78); stroke-width: 1; fill: rgb(67, 60, 60);"/>
+  <rect x="231.157" y="90.946" width="8.113" height="36.73" style="stroke: rgb(78, 78, 78); fill: rgb(67, 60, 60); stroke-width: 1;"/>
+  <rect x="268.328" y="54.02" width="14.777" height="29.384" style="stroke: rgb(78, 78, 78); stroke-width: 1; fill: rgb(67, 60, 60);"/>
+  <rect x="289.01" y="61.562" width="14.526" height="55.922" style="stroke: rgb(78, 78, 78); stroke-width: 1; fill: rgb(67, 60, 60);"/>
+  <rect x="269.893" y="90.946" width="14.275" height="36.73" style="stroke: rgb(78, 78, 78); fill: rgb(67, 60, 60); stroke-width: 1;"/>
+  <rect x="307.058" y="54.216" width="14.777" height="29.384" style="stroke: rgb(78, 78, 78); stroke-width: 1; fill: rgb(67, 60, 60);"/>
+  <rect x="326.677" y="61.562" width="14.526" height="55.922" style="stroke: rgb(78, 78, 78); stroke-width: 1; fill: rgb(67, 60, 60);"/>
+  <rect x="307.56" y="90.946" width="14.275" height="36.73" style="stroke: rgb(78, 78, 78); fill: rgb(67, 60, 60); stroke-width: 1;"/>
+  <rect x="344.731" y="54.02" width="14.777" height="29.384" style="stroke: rgb(78, 78, 78); stroke-width: 1; fill: rgb(67, 60, 60);"/>
+  <rect x="365.413" y="61.562" width="14.526" height="55.922" style="stroke: rgb(78, 78, 78); stroke-width: 1; fill: rgb(67, 60, 60);"/>
+  <rect x="346.296" y="90.946" width="14.275" height="36.73" style="stroke: rgb(78, 78, 78); fill: rgb(67, 60, 60); stroke-width: 1;"/>
+  <rect x="255.852" y="61.586" width="9.684" height="15.793" style="stroke: rgb(78, 78, 78); stroke-width: 1; fill: rgb(67, 60, 60);"/>
+  <rect x="112.975" y="190.233" width="33.894" height="36.73" style="stroke: rgb(78, 78, 78); fill: rgb(67, 60, 60); stroke-width: 1;"/>
+  <rect x="151.46" y="153.503" width="14.777" height="29.384" style="stroke: rgb(78, 78, 78); stroke-width: 1; fill: rgb(67, 60, 60);"/>
+  <rect x="171.079" y="160.849" width="14.526" height="55.922" style="stroke: rgb(78, 78, 78); stroke-width: 1; fill: rgb(67, 60, 60);"/>
+  <rect x="151.962" y="190.233" width="14.275" height="36.73" style="stroke: rgb(78, 78, 78); fill: rgb(67, 60, 60); stroke-width: 1;"/>
+  <rect x="189.133" y="153.307" width="14.777" height="29.384" style="stroke: rgb(78, 78, 78); stroke-width: 1; fill: rgb(67, 60, 60);"/>
+  <rect x="209.815" y="160.849" width="14.526" height="55.922" style="stroke: rgb(78, 78, 78); stroke-width: 1; fill: rgb(67, 60, 60);"/>
+  <rect x="190.698" y="190.233" width="14.275" height="36.73" style="stroke: rgb(78, 78, 78); fill: rgb(67, 60, 60); stroke-width: 1;"/>
+  <rect x="230.252" y="153.479" width="8.615" height="29.384" style="stroke: rgb(78, 78, 78); stroke-width: 1; fill: rgb(67, 60, 60);"/>
+  <rect x="243.709" y="160.825" width="9.684" height="55.922" style="stroke: rgb(78, 78, 78); stroke-width: 1; fill: rgb(67, 60, 60);"/>
+  <rect x="230.754" y="190.209" width="8.113" height="36.73" style="stroke: rgb(78, 78, 78); fill: rgb(67, 60, 60); stroke-width: 1;"/>
+  <rect x="288.607" y="160.825" width="14.526" height="55.922" style="stroke: rgb(78, 78, 78); stroke-width: 1; fill: rgb(67, 60, 60);"/>
+  <rect x="269.49" y="190.209" width="14.275" height="36.73" style="stroke: rgb(78, 78, 78); fill: rgb(67, 60, 60); stroke-width: 1;"/>
+  <rect x="306.655" y="153.479" width="14.777" height="29.384" style="stroke: rgb(78, 78, 78); stroke-width: 1; fill: rgb(67, 60, 60);"/>
+  <rect x="326.274" y="160.825" width="14.526" height="55.922" style="stroke: rgb(78, 78, 78); stroke-width: 1; fill: rgb(67, 60, 60);"/>
+  <rect x="307.157" y="190.209" width="14.275" height="36.73" style="stroke: rgb(78, 78, 78); fill: rgb(67, 60, 60); stroke-width: 1;"/>
+  <rect x="344.328" y="153.283" width="14.777" height="29.384" style="stroke: rgb(78, 78, 78); stroke-width: 1; fill: rgb(67, 60, 60);"/>
+  <rect x="365.01" y="160.825" width="14.526" height="55.922" style="stroke: rgb(78, 78, 78); stroke-width: 1; fill: rgb(67, 60, 60);"/>
+  <rect x="345.893" y="190.209" width="14.275" height="36.73" style="stroke: rgb(78, 78, 78); fill: rgb(67, 60, 60); stroke-width: 1;"/>
+  <rect x="255.449" y="160.849" width="9.684" height="15.793" style="stroke: rgb(78, 78, 78); stroke-width: 1; fill: rgb(67, 60, 60);"/>
+  <rect x="112.975" y="287.882" width="33.894" height="36.73" style="stroke: rgb(78, 78, 78); fill: rgb(67, 60, 60); stroke-width: 1;"/>
+  <rect x="151.46" y="251.152" width="14.777" height="29.384" style="stroke: rgb(78, 78, 78); stroke-width: 1; fill: rgb(67, 60, 60);"/>
+  <rect x="171.079" y="258.498" width="14.526" height="55.922" style="stroke: rgb(78, 78, 78); stroke-width: 1; fill: rgb(67, 60, 60);"/>
+  <rect x="151.962" y="287.882" width="14.275" height="36.73" style="stroke: rgb(78, 78, 78); fill: rgb(67, 60, 60); stroke-width: 1;"/>
+  <rect x="189.133" y="250.956" width="14.777" height="29.384" style="stroke: rgb(78, 78, 78); stroke-width: 1; fill: rgb(67, 60, 60);"/>
+  <rect x="209.815" y="258.498" width="14.526" height="55.922" style="stroke: rgb(78, 78, 78); stroke-width: 1; fill: rgb(67, 60, 60);"/>
+  <rect x="190.698" y="287.882" width="14.275" height="36.73" style="stroke: rgb(78, 78, 78); fill: rgb(67, 60, 60); stroke-width: 1;"/>
+  <rect x="230.252" y="251.128" width="8.615" height="29.384" style="stroke: rgb(78, 78, 78); stroke-width: 1; fill: rgb(67, 60, 60);"/>
+  <rect x="243.709" y="258.474" width="9.684" height="55.922" style="stroke: rgb(78, 78, 78); stroke-width: 1; fill: rgb(67, 60, 60);"/>
+  <rect x="230.754" y="287.858" width="8.113" height="36.73" style="stroke: rgb(78, 78, 78); fill: rgb(67, 60, 60); stroke-width: 1;"/>
+  <rect x="288.607" y="258.474" width="14.526" height="55.922" style="stroke: rgb(78, 78, 78); stroke-width: 1; fill: rgb(67, 60, 60);"/>
+  <rect x="269.49" y="287.858" width="14.275" height="36.73" style="stroke: rgb(78, 78, 78); fill: rgb(67, 60, 60); stroke-width: 1;"/>
+  <rect x="306.655" y="251.128" width="14.777" height="29.384" style="stroke: rgb(78, 78, 78); stroke-width: 1; fill: rgb(67, 60, 60);"/>
+  <rect x="326.274" y="258.474" width="14.526" height="55.922" style="stroke: rgb(78, 78, 78); stroke-width: 1; fill: rgb(67, 60, 60);"/>
+  <rect x="307.157" y="287.858" width="14.275" height="36.73" style="stroke: rgb(78, 78, 78); fill: rgb(67, 60, 60); stroke-width: 1;"/>
+  <rect x="344.328" y="250.932" width="14.777" height="29.384" style="stroke: rgb(78, 78, 78); stroke-width: 1; fill: rgb(67, 60, 60);"/>
+  <rect x="365.01" y="258.474" width="14.526" height="55.922" style="stroke: rgb(78, 78, 78); stroke-width: 1; fill: rgb(67, 60, 60);"/>
+  <rect x="345.893" y="287.858" width="14.275" height="36.73" style="stroke: rgb(78, 78, 78); fill: rgb(67, 60, 60); stroke-width: 1;"/>
+  <rect x="255.449" y="258.498" width="9.684" height="15.793" style="stroke: rgb(78, 78, 78); stroke-width: 1; fill: rgb(67, 60, 60);"/>
+  <rect x="268.988" y="151.392" width="14.777" height="29.384" style="stroke: rgb(78, 78, 78); stroke-width: 1; fill: rgb(67, 60, 60);"/>
+  <rect x="269.893" y="250.932" width="14.777" height="29.384" style="stroke: rgb(78, 78, 78); stroke-width: 1; fill: rgb(67, 60, 60);"/>
+  <rect x="113.378" y="250.932" width="33.491" height="29.384" style="stroke: rgb(78, 78, 78); stroke-width: 1; fill: rgb(67, 60, 60);"/>
+  <rect x="113.536" y="153.503" width="33.333" height="29.384" style="stroke: rgb(78, 78, 78); stroke-width: 1; fill: rgb(67, 60, 60);"/>
+  <rect y="300" width="400" height="36.672" style="fill: rgb(255, 255, 255);"/>
+</svg>

@@ -35,6 +35,10 @@ Shifts will be displayed as calender entries in the overview. The next entry can
 
 ![First Plan add Shift Step 3](./mockups/first-plan-add-shift-step-3.svg)
 
+A fully planned Calender could then look like this:
+
+![fully planned](./mockups/first-plan-all-shifts.svg)
+
 ### Mobile
 
 Mobile Views will not be displayed to save space. Not all pages will have a mobile
