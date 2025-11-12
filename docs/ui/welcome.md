@@ -25,6 +25,6 @@ After defining the timerange, a calendar view will be created and presented to t
 
 ### Mobile
 
-Mobile Views will not be displayed to save space. Not all pages will also have a mobile
+Mobile Views will not be displayed to save space. Not all pages will have a mobile
 
 [Welcome Page mobile](mockups/welcome-mobile.svg)
