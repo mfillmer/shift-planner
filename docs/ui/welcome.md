@@ -35,9 +35,13 @@ Shifts will be displayed as calender entries in the overview. The next entry can
 
 ![First Plan add Shift Step 3](./mockups/first-plan-add-shift-step-3.svg)
 
-A fully planned Calender could then look like this:
+A fully planned Calender could then look like this image below. Multiple shifts on a day are stacked beside each other and split across days if necessary. Shifts may be colored.
 
 ![fully planned](./mockups/first-plan-all-shifts.svg)
+
+Now it's time to build your team. To do this, have a look at the bottom half of the sidebar on the left. There is a section for your teams. You can define multiple teams and select one of them for your shift plan.
+
+First, click on on the +-Button next to 'Your Teams'
 
 ### Mobile
 
