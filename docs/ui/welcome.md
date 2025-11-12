@@ -47,6 +47,6 @@ First, click on on the +-Button next to 'Your Teams'. A new modal will open, wer
 
 ### Mobile
 
-Mobile Views will not be displayed to save space. Not all pages will have a mobile
+Mobile Views will not be displayed to save space. Not all pages will have a mobile.
 
 [Welcome Page mobile](mockups/welcome-mobile.svg)
