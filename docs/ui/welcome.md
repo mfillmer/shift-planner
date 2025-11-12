@@ -45,6 +45,8 @@ First, click on on the +-Button next to 'Your Team'. A new modal will open, were
 
 ![create team](./mockups/create-team.svg)
 
+![](./mockups/first-team-created.svg)
+
 ### Mobile
 
 Mobile Views will not be displayed to save space. Not all pages will have a mobile.
