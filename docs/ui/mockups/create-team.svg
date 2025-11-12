@@ -113,7 +113,7 @@
   <g transform="matrix(1, 0, 0, 1, -15.785988, 3.873428)">
     <rect x="55.319" y="27.272" width="319.572" height="244.964" style="fill: rgb(196, 196, 196);" rx="15.667" ry="15.667"/>
     <g>
-      <text style="white-space: pre; fill: rgb(51, 51, 51); font-family: Arial, sans-serif; font-size: 28px;" x="142.43" y="66.257">New Team</text>
+      <text style="white-space: pre; fill: rgb(51, 51, 51); font-family: Arial, sans-serif; font-size: 28px;" x="142.43" y="66.257">Your Team</text>
       <g transform="matrix(1, 0, 0, 1, 0, 4.020569)">
         <rect x="113.378" y="84.553" width="101.524" height="15.817" style="fill: rgb(216, 216, 216); stroke-width: 1;" rx="4.11" ry="4.11"/>
         <text style="white-space: pre; fill: rgb(51, 51, 51); font-family: Arial, sans-serif; font-size: 28px;" x="135.458" y="79.793" transform="matrix(0.513846, 0, 0, 0.48455, 53.299447, 57.963414)">Alice</text>
