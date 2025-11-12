@@ -4,7 +4,7 @@
     <text x="50" y="15" fill="#676767ff" font-family="system-ui, sans-serif" font-size="12" text-anchor="middle" dominant-baseline="central">Your Plans +</text>
     <text x="50" y="35" fill="#676767ff" font-family="system-ui, sans-serif" font-size="8" text-anchor="middle" dominant-baseline="central">you have no plans yet.</text>
     <text x="50" y="150" fill="#676767ff" font-family="system-ui, sans-serif" font-size="12" text-anchor="middle" dominant-baseline="central">Your Team +</text>
-    <text x="50" y="170" fill="#676767ff" font-family="system-ui, sans-serif" font-size="8" text-anchor="middle" dominant-baseline="central">you have no teams yet.</text>
+    <text x="50" y="170" fill="#676767ff" font-family="system-ui, sans-serif" font-size="8" text-anchor="middle" dominant-baseline="central">you have no team yet.</text>
     <text text-anchor="middle" dominant-baseline="central" font-family="system-ui, sans-serif" font-size="18" x="240" y="100" fill="#676767ff">Welcome</text>
     <text text-anchor="middle" dominant-baseline="central" font-family="system-ui, sans-serif" font-size="14" x="240" y="150" fill="#676767ff">Start your first shift plan</text>
     <circle cx="380" cy="280" r="12" fill="#c4c4c4ff">

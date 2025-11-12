@@ -8,7 +8,7 @@
   <rect x="6.438" y="30.946" width="87.255" height="12.622" style="fill: rgb(216, 216, 216); stroke-linecap: round;" rx="4" ry="4"/>
   <text x="50" y="15" fill="#676767ff" font-family="system-ui, sans-serif" font-size="12" text-anchor="middle" dominant-baseline="central" style="white-space: pre;">Your Plans +</text>
   <text x="50" y="150" fill="#676767ff" font-family="system-ui, sans-serif" font-size="12" text-anchor="middle" dominant-baseline="central" style="white-space: pre;">Your Team +</text>
-  <text x="50" y="170" fill="#676767ff" font-family="system-ui, sans-serif" font-size="8" text-anchor="middle" dominant-baseline="central" style="white-space: pre;">you have no teams yet.</text>
+  <text x="50" y="170" fill="#676767ff" font-family="system-ui, sans-serif" font-size="8" text-anchor="middle" dominant-baseline="central" style="white-space: pre;">you have no team yet.</text>
   <text style="fill: rgb(103, 103, 103); font-family: Arial, sans-serif; font-size: 6px; white-space: pre;" x="14.076" y="39.754">- First Plan</text>
   <text style="white-space: pre; fill: rgb(51, 51, 51); font-family: Arial, sans-serif; font-size: 28px;" x="113.536" y="32.402">First Plan</text>
   <text style="white-space: pre; fill: rgb(51, 51, 51); font-family: Arial, sans-serif; font-size: 28px;" x="291.409" y="28.673" transform="matrix(0.761812, 0, 0, 0.321326, 86.845262, 19.600575)">-</text>
