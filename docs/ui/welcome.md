@@ -47,6 +47,13 @@ First, click on on the +-Button next to 'Your Team'. A new modal will open, were
 
 ![](./mockups/first-team-created.svg)
 
+# Todo (nach Feedback)
+
+- Schichten manuell bestimmten Mitgliedern zuweisen
+- Stundenkonte beim Team eintragen können
+- Farben selbst wählen
+-
+
 ### Mobile
 
 Mobile Views will not be displayed to save space. Not all pages will have a mobile.
